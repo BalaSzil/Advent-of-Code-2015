@@ -1,7 +1,7 @@
 from InputReader import InputReader
 
-uneditedInput = InputReader("input1.txt")
-uneditedInput = uneditedInput.readInputFile()
+inputFile = InputReader("input1.txt")
+uneditedInput = inputFile.readInputFile()
 
 class parenthesisNavigation:
     
@@ -24,6 +24,7 @@ class parenthesisNavigation:
             print("Input character not recognized", self.move)
         
     def processMovements(self):
+        self.initFloorcounter()
         for move in self.puzzleInput:
             self.adjustFloorcounter(move)
     

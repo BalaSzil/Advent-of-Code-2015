@@ -1,7 +1,7 @@
 from InputReader import InputReader
 
-uneditedInput = InputReader("input1.txt")
-uneditedInput = uneditedInput.readInputFile()
+inputFile = InputReader("input1.txt")
+uneditedInput = inputFile.readInputFile()
 
 from DayOnePartOne import parenthesisNavigation
 
