@@ -1,7 +1,7 @@
 from InputReader import InputReader
 
 inputFile = InputReader("input1.txt")
-uneditedInput = inputFile.readInputFile()
+uneditedInput = inputFile.getUneditedInput()
 
 class parenthesisNavigation:
     
@@ -29,4 +29,5 @@ class parenthesisNavigation:
             self.adjustFloorcounter(move)
     
     def getFloorcount(self):
+        self.processMovements()
         return self.floorcounter
