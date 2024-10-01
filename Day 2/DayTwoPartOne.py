@@ -1,15 +1,18 @@
 import sys
-sys.path.insert(0, "C:/Users/Callipolis/Desktop/Programozás/AoC2/Advent-of-Code-2015")
+sys.path.insert(0, "C:/Users/Callipolis/Desktop/Programming/AoC2/Advent-of-Code-2015")
 from InputReader import InputReader
 
-input_file = InputReader("input2.txt")
-raw_input = input_file.get_list_with_lines()
+input_reader = InputReader("input2.txt")
+raw_input = input_reader.get_list_with_lines()
 
 class WrapperOrder:
     
+    paper_counter = 0
+    puzzle_input = None
+    
     def __init__(self, puzzle_input):
         self.puzzle_input = puzzle_input
-        self.paper_counter = 0
+        self.format_lines()
 
     def line_to_iterables(self, line):
         nums = line.split("x")
@@ -32,8 +35,7 @@ class WrapperOrder:
             self.paper_counter += line_total 
     
     def get_req_material(self):
-        self.format_lines()
-        return f"Total material required: {self.paper_counter}"
+        return self.paper_counter
 
 
 

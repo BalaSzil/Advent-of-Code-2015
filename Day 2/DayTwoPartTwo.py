@@ -1,9 +1,9 @@
 import sys
-sys.path.insert(0, "C:/Users/Callipolis/Desktop/Programozás/AoC2/Advent-of-Code-2015")
+sys.path.insert(0, "C:/Users/Callipolis/Desktop/Programming/AoC2/Advent-of-Code-2015")
 from InputReader import InputReader
 
-input_file = InputReader("input2.txt")
-raw_input = input_file.get_list_with_lines()
+input_reader = InputReader("input2.txt")
+raw_input = input_reader.get_list_with_lines()
 
 from DayTwoPartOne import WrapperOrder
 
