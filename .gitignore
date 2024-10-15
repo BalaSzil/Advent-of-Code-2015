@@ -1,0 +1,11 @@
+
+input1.txt
+Input2.txt
+Day1/__pycache__/DayOnePartTwo.cpython-311.pyc
+Day1/__pycache__/DayOnePartOne.cpython-311.pyc
+Day1/__pycache__/__init__.cpython-311.pyc
+Day 2/__pycache__/DayTwoPartOne.cpython-311.pyc
+Day2/__pycache__/DayTwoPartTwo.cpython-311.pyc
+Day2/__pycache__/DayTwoPartOne.cpython-311.pyc
+Day2/__pycache__/__init__.cpython-311.pyc
+*.pyc
