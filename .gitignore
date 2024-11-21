@@ -1,0 +1,24 @@
+
+input1.txt
+Input2.txt
+Day1/__pycache__/DayOnePartTwo.cpython-311.pyc
+Day1/__pycache__/DayOnePartOne.cpython-311.pyc
+Day1/__pycache__/__init__.cpython-311.pyc
+Day 2/__pycache__/DayTwoPartOne.cpython-311.pyc
+Day2/__pycache__/DayTwoPartTwo.cpython-311.pyc
+Day2/__pycache__/DayTwoPartOne.cpython-311.pyc
+Day2/__pycache__/__init__.cpython-311.pyc
+*.pyc
+RoB/day01/main.py
+RoB/day01/input.txt
+RoB/day01/__init__.py
+RoB/day01/__init__.py
+RoB/day01/main.py
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/inspectionProfiles/profiles_settings.xml
+RoB/day01/main.py
+RoB/day01/main.py
+RoB/day01/__init__.py
+.idea/Advent-of-Code-2015.iml
